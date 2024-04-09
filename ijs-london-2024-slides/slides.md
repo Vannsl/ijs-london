@@ -367,7 +367,7 @@ const items = [
 
 # AI Extension
 
-<div class="overflow-scroll h-100">
+<div class="overflow-scroll h-90">
 
 ```ts
 const AiExtension = Node.create<AiOptions>({
@@ -425,7 +425,7 @@ console.log(props.node.attrs.endpoint); // "https://api.openai.com/v1/completion
 
 # Input Field
 
-```html{1,3,7-17,19,21-25,27}{maxHeight:'400px'}
+```html{1,3,7-17,19,21-25,27}{maxHeight:'340px'}
 <script setup lang="ts">
 import { nodeViewProps, NodeViewWrapper } from "@tiptap/vue-3";
 import { ref } from "vue";
@@ -462,7 +462,7 @@ async function onSubmit() {
 
 <div class="overflow-scroll h-100">
 
-```html{1,18-29,31,38,40}{maxHeight:'400px'}
+```html{1,18-29,31,38,40}{maxHeight:'340px'}
 <script setup lang="ts">
 import { nodeViewProps, NodeViewWrapper } from "@tiptap/vue-3";
 import { ref } from "vue";
